@@ -1,0 +1,4 @@
+in address give google map link
+text-white and text-secondary are to enable/disable
+testimonials - heroes bootstrap
+last card of offers add grab now image bcoz it vanishes
