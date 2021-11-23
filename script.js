@@ -14,4 +14,39 @@ menu.addEventListener('click',()=>{
     }
 })
 
+// updates2.o
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
 
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+$('#navOffers').click(function(){ 
+    $('html, body').animate({ 
+         scrollTop: $("#offerSection").offset().top 
+    }, 2000); 
+});
+$('#navMenu').click(function(){ 
+    $('html, body').animate({ 
+         scrollTop: $("#menuSection").offset().top 
+    }, 2000); 
+}); 
+$('#navTestimonials').click(function(){ 
+    $('html, body').animate({ 
+         scrollTop: $("#testimonialSection").offset().top 
+    }, 2000); 
+}); 
+$('#navAbout').click(function(){ 
+    $('html, body').animate({ 
+         scrollTop: $("#aboutSection").offset().top 
+    }, 2000); 
+}); 
+$('#navAddress').click(function(){ 
+    $('html, body').animate({ 
+         scrollTop: $("#addressSection").offset().top 
+    }, 2000); 
+}); 
