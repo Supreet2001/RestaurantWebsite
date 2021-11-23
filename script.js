@@ -38,15 +38,15 @@ $('#navMenu').click(function(){
 $('#navTestimonials').click(function(){ 
     $('html, body').animate({ 
          scrollTop: $("#testimonialSection").offset().top 
-    }, 2000); 
+    }, 2500); 
 }); 
 $('#navAbout').click(function(){ 
     $('html, body').animate({ 
          scrollTop: $("#aboutSection").offset().top 
-    }, 2000); 
+    }, 2700); 
 }); 
 $('#navAddress').click(function(){ 
     $('html, body').animate({ 
          scrollTop: $("#addressSection").offset().top 
-    }, 2000); 
+    }, 3000); 
 }); 
