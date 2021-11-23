@@ -24,7 +24,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-
+if(window.innerWidth>481){
 $('#navOffers').click(function(){ 
     $('html, body').animate({ 
          scrollTop: $("#offerSection").offset().top 
@@ -50,3 +50,4 @@ $('#navAddress').click(function(){
          scrollTop: $("#addressSection").offset().top 
     }, 3000); 
 }); 
+}
