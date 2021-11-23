@@ -571,3 +571,27 @@ strong{
   color:blue;
     font-size: 3rem;
 }
+/* updates 2.o  */
+html {
+    scroll-behavior: smooth;
+  }
+#testimonial2 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition:1s;
+    
+}
+#offerSection .card:hover img{
+    transform: scale(1.2);
+    transition:1s;
+    overflow: hidden;
+    cursor: pointer;
+   
+}
+#offerSection .card:hover{
+    overflow: hidden;
+}
+#offerSection .card:hover .card-body{
+    z-index: 10001;
+}
+
